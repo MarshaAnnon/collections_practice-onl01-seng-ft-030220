@@ -27,7 +27,7 @@ end
 def kesha_maker(name)
 
   name.each.with_index(3) {|x| name.join <<  " $ " }
-end
+
 end
 
 def find_a(array)
