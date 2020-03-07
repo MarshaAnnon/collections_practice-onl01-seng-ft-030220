@@ -24,9 +24,9 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(name)
+def kesha_maker(array)
 
-  name.each.with_index(3) {|x| name.join <<  " $ " }
+  array.each {|x| x[2] = "$"}
 
 end
 
