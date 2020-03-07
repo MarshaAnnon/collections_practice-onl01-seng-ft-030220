@@ -40,8 +40,10 @@ end
 
 def add_s(array)
   array.map.with_index do |x, i|
-    unless i == 1
+    if i != 1
       x + "s"
+    else
+      x
     end
   end
 end
