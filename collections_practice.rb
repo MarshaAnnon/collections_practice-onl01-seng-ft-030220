@@ -39,10 +39,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map_with_index do |x, i|
+  array.map.with_index do |x, i|
     unless i == 1
       x + "s"
     end
   end
-  array
 end
