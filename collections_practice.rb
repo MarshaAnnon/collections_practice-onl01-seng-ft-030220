@@ -26,7 +26,7 @@ end
 
 def kesha_maker(name)
   name.each do |i|
-  puts name.insert(2, $)
+  return name.insert(2, $)
 end
 end
 
