@@ -25,8 +25,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(name)
-  name.each do |i|
-  return name.insert ("$").join
+  name.join
+  name.each.with_index(3) {|x| print x, " $ " }
 end
 end
 
@@ -41,5 +41,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0,0] = array<<s
+  array.each_with_index.collect{|array, index| }
 end
