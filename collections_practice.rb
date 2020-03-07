@@ -25,8 +25,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(name)
-  name.join
-  name.each.with_index(3) {|x| print x, " $ " }
+
+  name.each.with_index(3) {|x| name.join <<  " $ " }
 end
 end
 
